@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  noarch_python: true
+  noarch: python
   entry_points:
     - mss=mss.__main__:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
