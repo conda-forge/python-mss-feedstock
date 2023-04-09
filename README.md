@@ -1,11 +1,11 @@
-About python-mss
-================
+About python-mss-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-mss-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/BoboTiG/python-mss
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-mss-feedstock/blob/main/LICENSE.txt)
 
 Summary: An ultra fast cross-platform multiple screenshots module in pure python using ctypes.
 
@@ -13,7 +13,7 @@ Development: https://github.com/BoboTiG/python-mss
 
 Documentation: https://python-mss.readthedocs.io
 
-Python 3.5+, PEP8 compliant, no dependency and thread-safe.
+Python 3.6+, PEP8 compliant, no dependency and thread-safe.
 Very basic, it will grab one screen shot by monitor or a screen shot of all monitors and save it to a PNG file.
 But you can use PIL and benefit from all its formats (or add yours directly).
 Integrate well with Numpy and OpenCV.
