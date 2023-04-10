@@ -1,5 +1,5 @@
 {% set name = "mss" %}
-{% set version = "7.0.1" %}
+{% set version = "8.0.2" %}
 
 package:
   name: python-mss
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f14cee528903c3b01d3b8f1209cd498422f71e3d0d2d92c5b933edd3b9772022
+  sha256: 3127da688d4afa23b1a513945c6fa80b7c21de490933610dc6ab8780516435ea
 
 build:
   number: 0
