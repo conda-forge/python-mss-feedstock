@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
@@ -37,7 +37,7 @@ about:
   license_file: LICENSE
   summary: An ultra fast cross-platform multiple screenshots module in pure python using ctypes.
   description: |
-    Python 3.6+, PEP8 compliant, no dependency and thread-safe.
+    Python 3.8+, PEP8 compliant, no dependency, and thread-safe.
     Very basic, it will grab one screen shot by monitor or a screen shot of all monitors and save it to a PNG file.
     But you can use PIL and benefit from all its formats (or add yours directly).
     Integrate well with Numpy and OpenCV.
