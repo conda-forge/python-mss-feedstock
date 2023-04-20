@@ -1,5 +1,5 @@
 {% set name = "mss" %}
-{% set version = "7.0.1" %}
+{% set version = "9.0.1" %}
 
 package:
   name: python-mss
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f14cee528903c3b01d3b8f1209cd498422f71e3d0d2d92c5b933edd3b9772022
+  sha256: 6eb7b9008cf27428811fa33aeb35f3334db81e3f7cc2dd49ec7c6e5a94b39f12
 
 build:
   number: 0
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
 
 test:
   imports:
@@ -37,7 +37,7 @@ about:
   license_file: LICENSE
   summary: An ultra fast cross-platform multiple screenshots module in pure python using ctypes.
   description: |
-    Python 3.6+, PEP8 compliant, no dependency and thread-safe.
+    Python 3.8+, PEP8 compliant, no dependency, and thread-safe.
     Very basic, it will grab one screen shot by monitor or a screen shot of all monitors and save it to a PNG file.
     But you can use PIL and benefit from all its formats (or add yours directly).
     Integrate well with Numpy and OpenCV.
