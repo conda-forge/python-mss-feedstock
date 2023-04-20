@@ -24,9 +24,8 @@ requirements:
     - python >=3.8
 
 test:
-  # Skipping until we found a workaround on how to setup a X server: the $DISPLAY envar is required here, and must be valid
-  #imports:
-  #  - mss
+  imports:
+    - mss
   commands:
     - mss --help
     - mss --version
