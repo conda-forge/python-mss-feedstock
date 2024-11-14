@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: d903e0d51262bf0f8782841cf16eaa6d7e3e1f12eae35ab41c2e318837c6637f
 
 build:
@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=3.9
     - pip
+    - hatchling
   run:
     - python >=3.9
 
