@@ -10,7 +10,7 @@ source:
   sha256: d903e0d51262bf0f8782841cf16eaa6d7e3e1f12eae35ab41c2e318837c6637f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - mss=mss.__main__:main
@@ -18,13 +18,15 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - hatchling
   run:
-    - python >=3.9
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mss
   commands:
