@@ -14,11 +14,11 @@ Development: https://github.com/BoboTiG/python-mss
 Documentation: https://python-mss.readthedocs.io
 
 Python 3.9+, PEP8 compliant, no dependency, and thread-safe.
-Very basic, it will grab one screen shot by monitor or a screen shot of all monitors and save it to a PNG file.
+Very basic, it will grab one screenshot by monitor or a screenshot of all monitors and save it to a PNG file.
 But you can use PIL and benefit from all its formats (or add yours directly).
 Integrate well with Numpy and OpenCV.
 It could be easily embedded into games and other software which require fast and platform optimized methods to grab screen shots (like AI, Computer Vision).
-MSS stands for Multiple Screen Shots.
+MSS stands for Multiple ScreenShots.
 
 
 Current build status
